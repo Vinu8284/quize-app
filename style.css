@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #5b5d5e;
+}
+#container{
+    width: 40%;
+    height: 80vh;
+    background-color:rgb(246, 241, 241) ;
+    border-radius: 2rem;
+    margin: 5% auto;
+    text-align: center;
+    padding: 2rem;
+    justify-content: center;
+}
+#logo,#welcome,#text,#category,#demo{
+    margin: 0.5rem;
+    color: rgb(5, 41, 170);
+}
+#text{
+    width: 60%;
+    height: 2rem;
+    border-radius: 7px;
+   
+}
+#submit{
+    width: 20%;
+    height: 3rem;
+    border-radius: 7px;
+    background-color:blue;
+    color: white;
+  
+    
+}
+#category1{
+    height: 3rem;
+    width: 30%;
+    margin: 1rem 3rem;
+    background-color:rgb(238, 238, 238);
+    color: rgb(13, 57, 177);
+}
+#logo{
+    width: 6rem;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
+#question-box{
+    height: 15vh;
+    width:400px;
+    border: 2px solid rgb(21, 39, 241);
+    color: rgb(16, 17, 18);
+    margin: 4rem auto;
+    border-radius: 1rem;
+    padding: 2rem;
+
+}
+  #option-container {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    align-items: center; 
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+    gap: 10px; 
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #007BFF;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 48%; 
+    /* margin-top: 1.5rem; */
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color: #007BFF;
+    color: rgb(238, 228, 228);
+   
+    transform: scale(1.05);
+    
+  }
+  
+  button:active {
+    background-color: #0056b3;
+  }
+  #question-count{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border:2px solid blue;
+    position:absolute;
+    left: 48%;
+    top: 29vh;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .quiz-result{
+    margin-bottom: 2rem;
+    color: #0056b3;
+  }
+  .result{
+    margin-bottom: 0.5rem;
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+    color: #0056b3;
+    font-weight: bold;
+    text-align:center;
+  }.result1{
+    color: rgb(16, 17, 16);
+    font-size: large;
+    font-weight: bolder;
+    margin: 2rem;
+  }
+  
+

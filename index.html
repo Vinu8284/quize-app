@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <img src="images.png" alt="logo" id="logo"/>
+        <h1 id="welcome">Hello Learners!</h1>
+        <h3 id="welcome">Enter Your Name to continue the quiz</h3>
+        <form onsubmit="getName(event)">
+            <input type="text" id="text">
+            <button type="submit" id="submit">Enter</button>
+            <p id="demo">You'll have 15 seconds answer Each question</p>
+            <p id="welcomenote"></p>
+            <hr>
+        </form>
+        
+        <h2 id="category">Select Category</h2>
+        <button id="category1" value="HTML" onclick="startQuiz(event)">HTML</button>
+        <button id="category1" value="CSS" onclick="startQuiz(event)">CSS</button>
+        <button id="category1" value="JavaScript" onclick="startQuiz(event)">JavaScript</button>
+        <button id="category1" value="React" onclick="startQuiz(event)">Reactjs</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
