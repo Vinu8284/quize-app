@@ -34,7 +34,8 @@ const questions = [
   },
   {
     id: 5,
-    question: "What is the purpose of the `<alt>` attribute in the `<img>` tag?",
+    question:
+      "What is the purpose of the `<alt>` attribute in the `<img>` tag?",
     options: [
       "a. To define alternate text for an image",
       "b. To specify the alignment of the image",
@@ -79,12 +80,13 @@ const questions = [
   },
   {
     id: 10,
-    question: "Which of the following is used to create an unordered list in HTML?",
+    question:
+      "Which of the following is used to create an unordered list in HTML?",
     options: ["a. <li>", "b. <ol>", "c. <ul>", "d. <list>"],
     answer: "c. <ul>",
     category: "HTML",
   },
-  
+
   {
     id: 1,
     question: "What does CSS stand for?",
@@ -100,30 +102,21 @@ const questions = [
   {
     id: 2,
     question: "Which property is used to change the background color in CSS?",
-    options: [
-      "a. color",
-      "b. background-color",
-      "c. bgcolor",
-      "d. background",
-    ],
+    options: ["a. color", "b. background-color", "c. bgcolor", "d. background"],
     answer: "b. background-color",
     category: "CSS",
   },
   {
     id: 3,
     question: "Which property is used to change the text color of an element?",
-    options: [
-      "a. font-color",
-      "b. text-color",
-      "c. color",
-      "d. font-style",
-    ],
+    options: ["a. font-color", "b. text-color", "c. color", "d. font-style"],
     answer: "c. color",
     category: "CSS",
   },
   {
     id: 4,
-    question: "Which CSS property is used to set the space between the lines of text?",
+    question:
+      "Which CSS property is used to set the space between the lines of text?",
     options: [
       "a. line-spacing",
       "b. line-height",
@@ -135,7 +128,8 @@ const questions = [
   },
   {
     id: 5,
-    question: "How do you make a list that lists its items with square bullets?",
+    question:
+      "How do you make a list that lists its items with square bullets?",
     options: [
       "a. list-style-type: square;",
       "b. list-type: square;",
@@ -183,13 +177,9 @@ const questions = [
   },
   {
     id: 9,
-    question: "Which of the following properties is used to change the border color?",
-    options: [
-      "a. border-color",
-      "b. color",
-      "c. border-style",
-      "d. border",
-    ],
+    question:
+      "Which of the following properties is used to change the border color?",
+    options: ["a. border-color", "b. color", "c. border-style", "d. border"],
     answer: "a. border-color",
     category: "CSS",
   },
@@ -206,202 +196,210 @@ const questions = [
     category: "CSS",
   },
 
-
-    {
-      id: 1,
-      question: "What does 'var' stand for in JavaScript?",
-      options: [
-        "a. Variable",
-        "b. Variant",
-        "c. Variation",
-        "d. Value Register",
-      ],
-      answer: "a. Variable",
-      category: "JavaScript",
-    },
-    {
-      id: 2,
-      question: "Which company developed JavaScript?",
-      options: ["a. Microsoft", "b. Mozilla", "c. Netscape", "d. Google"],
-      answer: "c. Netscape",
-      category: "JavaScript",
-    },
-    {
-      id: 3,
-      question: "Which keyword is used to declare a constant in JavaScript?",
-      options: ["a. var", "b. const", "c. let", "d. constant"],
-      answer: "b. const",
-      category: "JavaScript",
-    },
-    {
-      id: 4,
-      question: "How do you write 'Hello World' in an alert box?",
-      options: [
-        "a. alertBox('Hello World');",
-        "b. msgBox('Hello World');",
-        "c. msg('Hello World');",
-        "d. alert('Hello World');",
-      ],
-      answer: "d. alert('Hello World');",
-      category: "JavaScript",
-    },
-    {
-      id: 5,
-      question: "Which method is used to round a number to its nearest integer?",
-      options: [
-        "a. Math.ceil()",
-        "b. Math.floor()",
-        "c. Math.round()",
-        "d. Math.random()",
-      ],
-      answer: "c. Math.round()",
-      category: "JavaScript",
-    },
-    {
-      id: 6,
-      question: "Which symbol is used for single-line comments in JavaScript?",
-      options: ["a. //", "b. /* */", "c. #", "d. <!-- -->"],
-      answer: "a. //",
-      category: "JavaScript",
-    },
-    {
-      id: 7,
-      question: "Which event occurs when a user clicks on an HTML element?",
-      options: ["a. onhover", "b. onmouseclick", "c. onclick", "d. onchange"],
-      answer: "c. onclick",
-      category: "JavaScript",
-    },
-    {
-      id: 8,
-      question: "What will `typeof null` return in JavaScript?",
-      options: ["a. null", "b. undefined", "c. object", "d. string"],
-      answer: "c. object",
-      category: "JavaScript",
-    },
-    {
-      id: 9,
-      question: "Which function is used to parse a string into an integer in JavaScript?",
-      options: ["a. parseInt()", "b. parseFloat()", "c. Number()", "d. String()"],
-      answer: "a. parseInt()",
-      category: "JavaScript",
-    },
-    {
-      id: 10,
-      question: "Which of the following is a way to declare a JavaScript function?",
-      options: [
-        "a. function = myFunction() {}",
-        "b. function myFunction() {}",
-        "c. function: myFunction() {}",
-        "d. function -> myFunction() {}",
-      ],
-      answer: "b. function myFunction() {}",
-      category: "JavaScript",
-    },
-    {
-      id: 1,
-      question: "What is React primarily used for?",
-      options: [
-        "a. Building databases",
-        "b. Designing APIs",
-        "c. Building user interfaces",
-        "d. Developing operating systems",
-      ],
-      answer: "c. Building user interfaces",
-      category: "React",
-    },
-    {
-      id: 2,
-      question: "Which method is used to update state in a React class component?",
-      options: [
-        "a. changeState()",
-        "b. updateState()",
-        "c. setState()",
-        "d. stateUpdate()",
-      ],
-      answer: "c. setState()",
-      category: "React",
-    },
-    {
-      id: 3,
-      question: "What is the virtual DOM in React?",
-      options: [
-        "a. A copy of the real DOM kept in memory",
-        "b. The browser's representation of the DOM",
-        "c. The physical structure of a webpage",
-        "d. None of the above",
-      ],
-      answer: "a. A copy of the real DOM kept in memory",
-      category: "React",
-    },
-    {
-      id: 4,
-      question: "Which hook is used to manage side effects in React functional components?",
-      options: ["a. useState", "b. useEffect", "c. useReducer", "d. useContext"],
-      answer: "b. useEffect",
-      category: "React",
-    },
-    {
-      id: 5,
-      question: "How can you pass data from a parent component to a child component?",
-      options: ["a. Using state", "b. Using hooks", "c. Using props", "d. Using context"],
-      answer: "c. Using props",
-      category: "React",
-    },
-    {
-      id: 6,
-      question: "What is the default port for a React app running in development mode?",
-      options: ["a. 8080", "b. 3000", "c. 5000", "d. 4200"],
-      answer: "b. 3000",
-      category: "React",
-    },
-    {
-      id: 7,
-      question: "Which of the following is a correct way to create a React component?",
-      options: [
-        "a. function MyComponent() {}",
-        "b. const MyComponent = () => {}",
-        "c. class MyComponent extends React.Component {}",
-        "d. All of the above",
-      ],
-      answer: "d. All of the above",
-      category: "React",
-    },
-    {
-      id: 8,
-      question: "Which statement best describes JSX?",
-      options: [
-        "a. JSX is a type of JavaScript",
-        "b. JSX allows you to write HTML in JavaScript",
-        "c. JSX is a template engine",
-        "d. JSX is an advanced version of CSS",
-      ],
-      answer: "b. JSX allows you to write HTML in JavaScript",
-      category: "React",
-    },
-    {
-      id: 9,
-      question: "Which of the following can cause a React component to re-render?",
-      options: [
-        "a. Changing the state",
-        "b. Updating props",
-        "c. Forcing a re-render using forceUpdate()",
-        "d. All of the above",
-      ],
-      answer: "d. All of the above",
-      category: "React",
-    },
-    {
-      id: 10,
-      question: "What is the purpose of the `key` prop in React lists?",
-      options: [
-        "a. To uniquely identify elements for React's reconciliation process",
-        "b. To add styles to list items",
-        "c. To link components to external data",
-        "d. To specify the order of list elements",
-      ],
-      answer: "a. To uniquely identify elements for React's reconciliation process",
-      category: "React",
-    },
+  {
+    id: 1,
+    question: "What does 'var' stand for in JavaScript?",
+    options: ["a. Variable", "b. Variant", "c. Variation", "d. Value Register"],
+    answer: "a. Variable",
+    category: "JavaScript",
+  },
+  {
+    id: 2,
+    question: "Which company developed JavaScript?",
+    options: ["a. Microsoft", "b. Mozilla", "c. Netscape", "d. Google"],
+    answer: "c. Netscape",
+    category: "JavaScript",
+  },
+  {
+    id: 3,
+    question: "Which keyword is used to declare a constant in JavaScript?",
+    options: ["a. var", "b. const", "c. let", "d. constant"],
+    answer: "b. const",
+    category: "JavaScript",
+  },
+  {
+    id: 4,
+    question: "How do you write 'Hello World' in an alert box?",
+    options: [
+      "a. alertBox('Hello World');",
+      "b. msgBox('Hello World');",
+      "c. msg('Hello World');",
+      "d. alert('Hello World');",
+    ],
+    answer: "d. alert('Hello World');",
+    category: "JavaScript",
+  },
+  {
+    id: 5,
+    question: "Which method is used to round a number to its nearest integer?",
+    options: [
+      "a. Math.ceil()",
+      "b. Math.floor()",
+      "c. Math.round()",
+      "d. Math.random()",
+    ],
+    answer: "c. Math.round()",
+    category: "JavaScript",
+  },
+  {
+    id: 6,
+    question: "Which symbol is used for single-line comments in JavaScript?",
+    options: ["a. //", "b. /* */", "c. #", "d. <!-- -->"],
+    answer: "a. //",
+    category: "JavaScript",
+  },
+  {
+    id: 7,
+    question: "Which event occurs when a user clicks on an HTML element?",
+    options: ["a. onhover", "b. onmouseclick", "c. onclick", "d. onchange"],
+    answer: "c. onclick",
+    category: "JavaScript",
+  },
+  {
+    id: 8,
+    question: "What will `typeof null` return in JavaScript?",
+    options: ["a. null", "b. undefined", "c. object", "d. string"],
+    answer: "c. object",
+    category: "JavaScript",
+  },
+  {
+    id: 9,
+    question:
+      "Which function is used to parse a string into an integer in JavaScript?",
+    options: ["a. parseInt()", "b. parseFloat()", "c. Number()", "d. String()"],
+    answer: "a. parseInt()",
+    category: "JavaScript",
+  },
+  {
+    id: 10,
+    question:
+      "Which of the following is a way to declare a JavaScript function?",
+    options: [
+      "a. function = myFunction() {}",
+      "b. function myFunction() {}",
+      "c. function: myFunction() {}",
+      "d. function -> myFunction() {}",
+    ],
+    answer: "b. function myFunction() {}",
+    category: "JavaScript",
+  },
+  {
+    id: 1,
+    question: "What is React primarily used for?",
+    options: [
+      "a. Building databases",
+      "b. Designing APIs",
+      "c. Building user interfaces",
+      "d. Developing operating systems",
+    ],
+    answer: "c. Building user interfaces",
+    category: "React",
+  },
+  {
+    id: 2,
+    question:
+      "Which method is used to update state in a React class component?",
+    options: [
+      "a. changeState()",
+      "b. updateState()",
+      "c. setState()",
+      "d. stateUpdate()",
+    ],
+    answer: "c. setState()",
+    category: "React",
+  },
+  {
+    id: 3,
+    question: "What is the virtual DOM in React?",
+    options: [
+      "a. A copy of the real DOM kept in memory",
+      "b. The browser's representation of the DOM",
+      "c. The physical structure of a webpage",
+      "d. None of the above",
+    ],
+    answer: "a. A copy of the real DOM kept in memory",
+    category: "React",
+  },
+  {
+    id: 4,
+    question:
+      "Which hook is used to manage side effects in React functional components?",
+    options: ["a. useState", "b. useEffect", "c. useReducer", "d. useContext"],
+    answer: "b. useEffect",
+    category: "React",
+  },
+  {
+    id: 5,
+    question:
+      "How can you pass data from a parent component to a child component?",
+    options: [
+      "a. Using state",
+      "b. Using hooks",
+      "c. Using props",
+      "d. Using context",
+    ],
+    answer: "c. Using props",
+    category: "React",
+  },
+  {
+    id: 6,
+    question:
+      "What is the default port for a React app running in development mode?",
+    options: ["a. 8080", "b. 3000", "c. 5000", "d. 4200"],
+    answer: "b. 3000",
+    category: "React",
+  },
+  {
+    id: 7,
+    question:
+      "Which of the following is a correct way to create a React component?",
+    options: [
+      "a. function MyComponent() {}",
+      "b. const MyComponent = () => {}",
+      "c. class MyComponent extends React.Component {}",
+      "d. All of the above",
+    ],
+    answer: "d. All of the above",
+    category: "React",
+  },
+  {
+    id: 8,
+    question: "Which statement best describes JSX?",
+    options: [
+      "a. JSX is a type of JavaScript",
+      "b. JSX allows you to write HTML in JavaScript",
+      "c. JSX is a template engine",
+      "d. JSX is an advanced version of CSS",
+    ],
+    answer: "b. JSX allows you to write HTML in JavaScript",
+    category: "React",
+  },
+  {
+    id: 9,
+    question:
+      "Which of the following can cause a React component to re-render?",
+    options: [
+      "a. Changing the state",
+      "b. Updating props",
+      "c. Forcing a re-render using forceUpdate()",
+      "d. All of the above",
+    ],
+    answer: "d. All of the above",
+    category: "React",
+  },
+  {
+    id: 10,
+    question: "What is the purpose of the `key` prop in React lists?",
+    options: [
+      "a. To uniquely identify elements for React's reconciliation process",
+      "b. To add styles to list items",
+      "c. To link components to external data",
+      "d. To specify the order of list elements",
+    ],
+    answer:
+      "a. To uniquely identify elements for React's reconciliation process",
+    category: "React",
+  },
 ];
 let username = "";
 let category = "";
@@ -436,7 +434,6 @@ function startQuiz(event) {
   );
 
   questionCount = 0;
-  score = 0;
   totalTime = 0;
   startTime = Date.now();
 
@@ -460,19 +457,25 @@ function displayQuestion() {
   // let randomNumber=Math.floor(Math.random()*10);
   let questionContainer = document.getElementById("question-box");
   questionContainer.innerHTML = `<p>${categoryQuestions[questionCount].question}</p>`;
-  document.getElementById('question-count').innerHTML=`${questionCount+1}/10`
+  document.getElementById("question-count").innerHTML = `${
+    questionCount + 1
+  }/10`;
   displayOptions(categoryQuestions[questionCount]);
 
   let timeLeft = 20;
-  document.getElementById("timer").textContent = `Time Left: ${timeLeft} seconds`;
+  document.getElementById(
+    "timer"
+  ).textContent = `Time Left: ${timeLeft} seconds`;
   clearInterval(timerInterval);
   timerInterval = setInterval(() => {
     timeLeft--;
-    document.getElementById("timer").textContent = `Time Left: ${timeLeft} seconds`;
+    document.getElementById(
+      "timer"
+    ).textContent = `Time Left: ${timeLeft} seconds`;
     if (timeLeft <= 0) {
       clearInterval(timerInterval);
       questionCount++;
-      displayQuestion(); 
+      displayQuestion();
     }
   }, 1000);
 }
@@ -489,10 +492,11 @@ function displayOptions(question) {
 function handleAnswer(selectedOption, correctAnswer) {
   if (selectedOption === correctAnswer) {
     score++;
+    document.getElementById("score").innerHTML = `Score: ${score}`;
   }
   questionCount++;
-  clearInterval(timerInterval); 
-  displayQuestion(); 
+  clearInterval(timerInterval);
+  displayQuestion();
 }
 function endQuiz() {
   clearInterval(timerInterval);
@@ -503,9 +507,10 @@ function endQuiz() {
   const wrongAnswers = attemptedQuestions - correctAnswers;
   const percentage = ((correctAnswers / totalQuestions) * 100).toFixed(2);
 
-  let greetingMessage = correctAnswers > 5 
-    ? `Congratulations! ${username} You cleared the quiz!` 
-    : `Keep trying,${username} you can do better next time!`;
+  let greetingMessage =
+    correctAnswers > 5
+      ? `Congratulations! ${username} You cleared the quiz!`
+      : `Keep trying,${username} you can do better next time!`;
 
   document.getElementById("container").innerHTML = `
     <h1 class="quiz-result">Quiz Result</h1>
@@ -517,6 +522,5 @@ function endQuiz() {
     <p class="result">Total Percentage: ${percentage}%</p>
     <p class="result">Total Time Taken: ${totalTime} seconds</p>
     <button onclick="location.reload()">Restart Quiz</button>
-  ` ;
+  `;
 }
-
